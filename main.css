@@ -1,0 +1,105 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    background-color: black;
+}
+
+.ul {
+    list-style-type: none;
+    color: white;
+    font-size: large;
+}
+
+.list .ul {
+    display: flex;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color:greenyellow;
+    padding: 30px;
+    align-items: center;
+}
+
+.BS {
+    color: black;
+
+}
+
+.abus {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: larger;
+
+}
+
+footer .row {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+
+p {
+    font-size: larger;
+    width: auto;
+}
+
+.abus ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contant {
+    display: flex;
+}
+
+.footer1 {
+    display: flex;
+    gap: 100px;
+}
+
+.footert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icons button{
+    background-color:green;
+    border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
